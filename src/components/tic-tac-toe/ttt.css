@@ -1,0 +1,110 @@
+.container{
+    background-color: rgb(239, 246, 252);
+    height: 320px;
+    width: 270px;
+    border-radius: 12px;
+    /* margin: 150px auto; */
+}
+.header{
+    height: 40px;
+    background-color: white;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    justify-content: left;
+}
+.header p{
+    font-weight: 700;
+    font-size: 20px;
+   
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.grid{
+    width: 170px;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.grid-row-1{
+    width: 170px;
+    height: 8px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: -60px;
+    background: rgb(54, 54, 54);
+}
+.grid-clm-1{
+    height: 170px;
+    width: 8px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: -60px;
+    background: rgb(54, 54, 54);
+}
+
+.grid-row-2{
+    width: 170px;
+    height: 8px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 60px;
+    background: rgb(54, 54, 54);
+}
+.grid-clm-2{
+    height: 170px;
+    width: 8px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 60px;
+    background: rgb(54, 54, 54);
+}
+.turn-of{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.cell{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+}
+.win{
+    height: 40px;
+    width: 135px;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 0 12px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.footer button{
+    height: 40px;
+    width: 135px;
+    border: 0px solid;
+    border-radius: 0 0 10px;
+    background-color: rgb(255, 35, 35);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
